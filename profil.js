@@ -20,7 +20,7 @@ $(document).ready(function(){
 
         }else{
             let boites=texx.val()
-            $(".tchat2").append(`<p style="color:white">${boites}</p>`)
+            $(".tchat2").append(`<p style="color:black">${boites}</p>`)
             texx.val("");
         }
     })
